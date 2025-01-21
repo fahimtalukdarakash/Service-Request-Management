@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": null,
+      "type": "mssql.onprem",
+      "connectionId": "ConnectionStrings:Default"
+    },
+    "mssql3": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/servicerequestapi/providers/Microsoft.ServiceLinker/linkers/Default_863CAAB1EF",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/service-request-db-server/databases/ServiceRequestDB",
+      "type": "mssql.azure",
+      "connectionId": "Default"
+    }
+  }
+}

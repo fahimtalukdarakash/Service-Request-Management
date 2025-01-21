@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "vyM42PNzgjGlGG/YRj5F172Sg17EOeeIXDhrPZ+oloY=",
+  "Source": "ServiceRequestManagement.Server",
+  "BasePath": "_content/ServiceRequestManagement.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\servicerequestmanagement.client.esproj",
+      "Version": 2,
+      "Source": "servicerequestmanagement.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

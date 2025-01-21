@@ -1,0 +1,2 @@
+D:\Agile Project 2\ServiceRequestManagement\servicerequestmanagement.client\obj\Release\servicerequestmanagement.client.esproj.CoreCompileInputs.cache
+D:\Group 2a Project\ServiceRequestManagement\servicerequestmanagement.client\obj\Release\servicerequestmanagement.client.esproj.CoreCompileInputs.cache

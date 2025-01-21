@@ -1,0 +1,701 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "ServiceRequestManagement.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Registration/Registration": {
+      "post": {
+        "tags": [
+          "Registration"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Registration"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/Registration/Login": {
+      "post": {
+        "tags": [
+          "Registration"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Registration"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/Registration/UserApproval": {
+      "post": {
+        "tags": [
+          "Registration"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Registration"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/Registration/ProviderManagerRegistration": {
+      "post": {
+        "tags": [
+          "Registration"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ProviderManager"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/ServiceRequest/AddServiceRequest": {
+      "post": {
+        "tags": [
+          "ServiceRequest"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ServiceRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/ServiceRequest/ServiceRequestList": {
+      "get": {
+        "tags": [
+          "ServiceRequest"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/ServiceRequest/ServiceRequestApproval": {
+      "post": {
+        "tags": [
+          "ServiceRequest"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "format": "uuid",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/ServiceRequest/ViewServiceRequests": {
+      "get": {
+        "tags": [
+          "ServiceRequest"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "userRole",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "userID",
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "in": "query",
+            "name": "department",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/ServiceRequest/GetUserServiceRequests": {
+      "get": {
+        "tags": [
+          "ServiceRequest"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "userID",
+            "type": "string",
+            "format": "uuid"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/ServiceRequest/GetServiceRequestsForProviderManager": {
+      "get": {
+        "tags": [
+          "ServiceRequest"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "email",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/ServiceRequest/GetServiceRequestDetails": {
+      "get": {
+        "tags": [
+          "ServiceRequest"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "requestID",
+            "type": "string",
+            "format": "uuid"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/ServiceRequest/GetMessages": {
+      "get": {
+        "tags": [
+          "ServiceRequest"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "requestID",
+            "type": "string",
+            "format": "uuid"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/api/ServiceRequest/SendMessage": {
+      "post": {
+        "tags": [
+          "ServiceRequest"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Message"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WeatherForecast"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Message": {
+      "required": [
+        "messageContent",
+        "senderID",
+        "senderRole",
+        "serviceRequestID",
+        "timestamp"
+      ],
+      "type": "object",
+      "properties": {
+        "messageID": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "serviceRequestID": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "senderID": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "senderRole": {
+          "maxLength": 50,
+          "minLength": 1,
+          "type": "string"
+        },
+        "messageContent": {
+          "maxLength": -1,
+          "minLength": 1,
+          "type": "string"
+        },
+        "timestamp": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "ProviderManager": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "department": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "createdAt": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Registration": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "isActive": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "isApproved": {
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Response": {
+      "type": "object",
+      "properties": {
+        "statusCode": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "statusMessage": {
+          "type": "string"
+        },
+        "listRegistration": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Registration"
+          }
+        },
+        "registration": {
+          "$ref": "#/definitions/Registration"
+        },
+        "listServiceRequests": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ServiceRequest"
+          }
+        },
+        "serviceRequest": {
+          "$ref": "#/definitions/ServiceRequest"
+        },
+        "listMessages": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Message"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "RoleSpecific": {
+      "type": "object",
+      "properties": {
+        "roleID": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "requestID": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "userID": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "level": {
+          "type": "string"
+        },
+        "technologyLevel": {
+          "type": "string"
+        },
+        "locationType": {
+          "type": "string"
+        },
+        "numberOfEmployee": {
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "ServiceRequest": {
+      "type": "object",
+      "properties": {
+        "requestID": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "userID": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "masterAgreementID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "masterAgreementName": {
+          "type": "string"
+        },
+        "taskDescription": {
+          "type": "string"
+        },
+        "requestType": {
+          "type": "string"
+        },
+        "project": {
+          "type": "string"
+        },
+        "startDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "endDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "totalManDays": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "location": {
+          "type": "string"
+        },
+        "providerManagerInfo": {
+          "type": "string"
+        },
+        "consumer": {
+          "type": "string"
+        },
+        "representatives": {
+          "type": "string"
+        },
+        "cycle": {
+          "type": "string"
+        },
+        "selectedDomainName": {
+          "type": "string"
+        },
+        "isApproved": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "roleSpecific": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/RoleSpecific"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "WeatherForecast": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "format": "date",
+          "type": "string"
+        },
+        "temperatureC": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "temperatureF": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "summary": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
