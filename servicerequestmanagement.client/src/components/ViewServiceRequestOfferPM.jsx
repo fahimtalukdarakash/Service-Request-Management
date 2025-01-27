@@ -102,11 +102,11 @@ function ViewServiceRequestOfferPM() {
           {serviceRequestOffer.serviceOffers.map((offer, index) => (
             <div key={index} className="card mb-3">
               <div className="card-body">
-                <p><strong>Provider:</strong> {offer.providerName}</p>
-                <p><strong>Role:</strong> {offer.role}</p>
-                <p><strong>Price:</strong> ${offer.price}</p>
-                <p><strong>Selection:</strong> {offer.selection}</p>
-                <p><strong>Comment:</strong> {offer.comment}</p>
+                <p className="text-white"><strong>Provider:</strong> {offer.providerName}</p>
+                <p className="text-white"><strong>Role:</strong> {offer.role}</p>
+                <p className="text-white"><strong>Price:</strong> ${offer.price}</p>
+                <p className="text-white"><strong>Selection:</strong> {offer.selection}</p>
+                <p className="text-white"><strong>Comment:</strong> {offer.comment}</p>
               </div>
             </div>
           ))}

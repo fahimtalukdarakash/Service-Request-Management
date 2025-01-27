@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LCVjxbStFKJwa+n3ZU6rGDJgoZMpA9l6F0IDeTn/jX8=",
+  "Hash": "oMdHAcX33ffWJUciN1GFlV4qA5GVZQ1M9pV91pz/XS8=",
   "Source": "ServiceRequestManagement.Server",
   "BasePath": "_content/ServiceRequestManagement.Server",
   "Mode": "Default",
@@ -21,12 +21,12 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-7U9lI4e0.js",
+      "Identity": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-D98mr43O.js",
       "SourceId": "servicerequestmanagement.client",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\",
       "BasePath": "/",
-      "RelativePath": "assets/index-7U9lI4e0.js",
+      "RelativePath": "assets/index-D98mr43O.js",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -35,19 +35,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vh6osuaqcl",
-      "Integrity": "4yp3CeiJTjsZlgeSMOwGMmgDCUHvIsxfl5wSfGCcKp4=",
+      "Fingerprint": "gfjp3ygsm8",
+      "Integrity": "ZCYxNm7zlLeJT+/qetepEE4tR7cOcYrZi/gJjj22O/8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-7U9lI4e0.js"
+      "OriginalItemSpec": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-D98mr43O.js"
     },
     {
-      "Identity": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-U35vp5-5.css",
+      "Identity": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-DsiOK4Sx.css",
       "SourceId": "servicerequestmanagement.client",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\",
       "BasePath": "/",
-      "RelativePath": "assets/index-U35vp5-5.css",
+      "RelativePath": "assets/index-DsiOK4Sx.css",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -56,11 +56,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "l39el4ijuo",
-      "Integrity": "kcpa75n55LJAPggm7lZZOfshKgc8Bc1fHeDusP9sVAY=",
+      "Fingerprint": "9f426co8xo",
+      "Integrity": "G4fIRzjnH9PLngLp6/NRphB5+3ntal6ib3zNouhYjwI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-U35vp5-5.css"
+      "OriginalItemSpec": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-DsiOK4Sx.css"
     },
     {
       "Identity": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\index.html",
@@ -77,8 +77,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qqcmmm5rhw",
-      "Integrity": "/hfFKIpULbrrO2UyjtjPpOD+tVetaXCgA06Z8bdjJzU=",
+      "Fingerprint": "i5acss9xxd",
+      "Integrity": "muVcAQGRqef4tNzHJbSyXk6woDdkw8r/QuDyD3po+rk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\index.html"
@@ -107,8 +107,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "assets/index-7U9lI4e0.js",
-      "AssetFile": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-7U9lI4e0.js",
+      "Route": "assets/index-D98mr43O.js",
+      "AssetFile": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-D98mr43O.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -117,7 +117,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "448909"
+          "Value": "450049"
         },
         {
           "Name": "Content-Type",
@@ -125,11 +125,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4yp3CeiJTjsZlgeSMOwGMmgDCUHvIsxfl5wSfGCcKp4=\""
+          "Value": "\"ZCYxNm7zlLeJT+/qetepEE4tR7cOcYrZi/gJjj22O/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 02:06:56 GMT"
+          "Value": "Mon, 27 Jan 2025 19:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -139,13 +139,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4yp3CeiJTjsZlgeSMOwGMmgDCUHvIsxfl5wSfGCcKp4="
+          "Value": "sha256-ZCYxNm7zlLeJT+/qetepEE4tR7cOcYrZi/gJjj22O/8="
         }
       ]
     },
     {
-      "Route": "assets/index-U35vp5-5.css",
-      "AssetFile": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-U35vp5-5.css",
+      "Route": "assets/index-DsiOK4Sx.css",
+      "AssetFile": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-DsiOK4Sx.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -154,7 +154,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "233672"
+          "Value": "234389"
         },
         {
           "Name": "Content-Type",
@@ -162,11 +162,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kcpa75n55LJAPggm7lZZOfshKgc8Bc1fHeDusP9sVAY=\""
+          "Value": "\"G4fIRzjnH9PLngLp6/NRphB5+3ntal6ib3zNouhYjwI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 02:06:56 GMT"
+          "Value": "Mon, 27 Jan 2025 19:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -176,7 +176,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kcpa75n55LJAPggm7lZZOfshKgc8Bc1fHeDusP9sVAY="
+          "Value": "sha256-G4fIRzjnH9PLngLp6/NRphB5+3ntal6ib3zNouhYjwI="
         }
       ]
     },
@@ -199,11 +199,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/hfFKIpULbrrO2UyjtjPpOD+tVetaXCgA06Z8bdjJzU=\""
+          "Value": "\"muVcAQGRqef4tNzHJbSyXk6woDdkw8r/QuDyD3po+rk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 02:06:56 GMT"
+          "Value": "Mon, 27 Jan 2025 19:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -213,7 +213,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/hfFKIpULbrrO2UyjtjPpOD+tVetaXCgA06Z8bdjJzU="
+          "Value": "sha256-muVcAQGRqef4tNzHJbSyXk6woDdkw8r/QuDyD3po+rk="
         }
       ]
     },

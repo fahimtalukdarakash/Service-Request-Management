@@ -1,0 +1,55 @@
+.hero {
+  width: 100%;
+}
+.heroSection {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+.herodiv {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.heroContent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.welcomeText {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+.userName, .userRole {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.particlesContainer {
+  position: relative;
+  height: 100vh;
+}
