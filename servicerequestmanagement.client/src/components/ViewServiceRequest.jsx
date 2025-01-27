@@ -21,11 +21,11 @@ function ViewServiceRequest() {
           "https://servicerequestapi-d0g3ezftcggucbev.germanywestcentral-01.azurewebsites.net/api/ServiceRequest/GetServiceRequestDetails",
           { params: { requestID } }
         );
-
-        if (response.data.statusCode === 200) {
-          setServiceRequest(response.data.serviceRequest);
+      
+        if (response.status === 200 && response.data) {
+          setServiceRequest(response.data); // Directly set the entire object
         } else {
-          setErrorMessage(response.data.statusMessage);
+          setErrorMessage(response.data?.statusMessage || "Failed to fetch service request.");
         }
       } catch (error) {
         console.error("Error fetching service request:", error);

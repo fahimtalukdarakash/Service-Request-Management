@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XueXuYNQvKFSCt04MFp+UKduit6Gf1+Ppwp2MDQzi+A=",
+  "Hash": "LCVjxbStFKJwa+n3ZU6rGDJgoZMpA9l6F0IDeTn/jX8=",
   "Source": "ServiceRequestManagement.Server",
   "BasePath": "_content/ServiceRequestManagement.Server",
   "Mode": "Default",
@@ -21,12 +21,12 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-Cpo1OeSZ.js",
+      "Identity": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-7U9lI4e0.js",
       "SourceId": "servicerequestmanagement.client",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\",
       "BasePath": "/",
-      "RelativePath": "assets/index-Cpo1OeSZ.js",
+      "RelativePath": "assets/index-7U9lI4e0.js",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -35,11 +35,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nsjrqzhzgi",
-      "Integrity": "Cc3S8dcO0dLtv+xaiKI7tvzmTTyvCxYsjg2cinrfx+U=",
+      "Fingerprint": "vh6osuaqcl",
+      "Integrity": "4yp3CeiJTjsZlgeSMOwGMmgDCUHvIsxfl5wSfGCcKp4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-Cpo1OeSZ.js"
+      "OriginalItemSpec": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-7U9lI4e0.js"
     },
     {
       "Identity": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-U35vp5-5.css",
@@ -77,8 +77,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2cyvlz74k1",
-      "Integrity": "ktCfdKi29p8BwkIDdsmojZzbYJDTXbqvrNmfiKUiN/E=",
+      "Fingerprint": "qqcmmm5rhw",
+      "Integrity": "/hfFKIpULbrrO2UyjtjPpOD+tVetaXCgA06Z8bdjJzU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\index.html"
@@ -107,8 +107,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "assets/index-Cpo1OeSZ.js",
-      "AssetFile": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-Cpo1OeSZ.js",
+      "Route": "assets/index-7U9lI4e0.js",
+      "AssetFile": "D:\\Group 2a Project\\ServiceRequestManagement\\servicerequestmanagement.client\\dist\\assets\\index-7U9lI4e0.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -117,7 +117,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "422304"
+          "Value": "448909"
         },
         {
           "Name": "Content-Type",
@@ -125,11 +125,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Cc3S8dcO0dLtv+xaiKI7tvzmTTyvCxYsjg2cinrfx+U=\""
+          "Value": "\"4yp3CeiJTjsZlgeSMOwGMmgDCUHvIsxfl5wSfGCcKp4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 22:48:00 GMT"
+          "Value": "Mon, 27 Jan 2025 02:06:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -139,7 +139,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Cc3S8dcO0dLtv+xaiKI7tvzmTTyvCxYsjg2cinrfx+U="
+          "Value": "sha256-4yp3CeiJTjsZlgeSMOwGMmgDCUHvIsxfl5wSfGCcKp4="
         }
       ]
     },
@@ -166,7 +166,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 22:48:00 GMT"
+          "Value": "Mon, 27 Jan 2025 02:06:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -199,11 +199,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ktCfdKi29p8BwkIDdsmojZzbYJDTXbqvrNmfiKUiN/E=\""
+          "Value": "\"/hfFKIpULbrrO2UyjtjPpOD+tVetaXCgA06Z8bdjJzU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 22:48:00 GMT"
+          "Value": "Mon, 27 Jan 2025 02:06:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -213,7 +213,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ktCfdKi29p8BwkIDdsmojZzbYJDTXbqvrNmfiKUiN/E="
+          "Value": "sha256-/hfFKIpULbrrO2UyjtjPpOD+tVetaXCgA06Z8bdjJzU="
         }
       ]
     },

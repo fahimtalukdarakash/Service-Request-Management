@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Group 2a Project\\ServiceRequestManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|d:\\group 2a project\\servicerequestmanagement\\servicerequestmanagement.server\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|solutionrelative:servicerequestmanagement.server\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|d:\\group 2a project\\servicerequestmanagement\\servicerequestmanagement.server\\models\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|solutionrelative:servicerequestmanagement.server\\models\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|d:\\group 2a project\\servicerequestmanagement\\servicerequestmanagement.server\\models\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|solutionrelative:servicerequestmanagement.server\\models\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|d:\\group 2a project\\servicerequestmanagement\\servicerequestmanagement.server\\models\\servicerequestoffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|solutionrelative:servicerequestmanagement.server\\models\\servicerequestoffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|d:\\group 2a project\\servicerequestmanagement\\servicerequestmanagement.server\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|solutionrelative:servicerequestmanagement.server\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|d:\\group 2a project\\servicerequestmanagement\\servicerequestmanagement.server\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|solutionrelative:servicerequestmanagement.server\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|d:\\group 2a project\\servicerequestmanagement\\servicerequestmanagement.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|d:\\group 2a project\\servicerequestmanagement\\servicerequestmanagement.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|solutionrelative:servicerequestmanagement.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|d:\\group 2a project\\servicerequestmanagement\\servicerequestmanagement.server\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|solutionrelative:servicerequestmanagement.server\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEB5FD37-5642-4D1E-A60D-9869115AF4AC}|ServiceRequestManagement.Server\\ServiceRequestManagement.Server.csproj|d:\\group 2a project\\servicerequestmanagement\\servicerequestmanagement.server\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +46,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "ServiceRequestOffer.cs",
+              "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\ServiceRequestOffer.cs",
+              "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\Models\\ServiceRequestOffer.cs",
+              "ToolTip": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\ServiceRequestOffer.cs",
+              "RelativeToolTip": "ServiceRequestManagement.Server\\Models\\ServiceRequestOffer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T01:27:06.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\Models\\Response.cs",
+              "ToolTip": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\Response.cs",
+              "RelativeToolTip": "ServiceRequestManagement.Server\\Models\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T15:24:55.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dal.cs",
+              "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\Dal.cs",
+              "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\Models\\Dal.cs",
+              "ToolTip": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\Dal.cs",
+              "RelativeToolTip": "ServiceRequestManagement.Server\\Models\\Dal.cs",
+              "ViewState": "AgIAAGwDAAAAAAAAAAAxwFwIAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T17:30:08.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceRequestController.cs",
+              "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Controllers\\ServiceRequestController.cs",
+              "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\Controllers\\ServiceRequestController.cs",
+              "ToolTip": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Controllers\\ServiceRequestController.cs",
+              "RelativeToolTip": "ServiceRequestManagement.Server\\Controllers\\ServiceRequestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALwBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T08:49:09.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RegistrationController.cs",
               "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Controllers\\RegistrationController.cs",
               "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\Controllers\\RegistrationController.cs",
@@ -62,45 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Response.cs",
-              "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\Response.cs",
-              "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\Models\\Response.cs",
-              "ToolTip": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\Response.cs",
-              "RelativeToolTip": "ServiceRequestManagement.Server\\Models\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T15:24:55.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServiceRequest.cs",
-              "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\ServiceRequest.cs",
-              "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\Models\\ServiceRequest.cs",
-              "ToolTip": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\ServiceRequest.cs",
-              "RelativeToolTip": "ServiceRequestManagement.Server\\Models\\ServiceRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T20:05:09.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dal.cs",
-              "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\Dal.cs",
-              "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\Models\\Dal.cs",
-              "ToolTip": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Models\\Dal.cs",
-              "RelativeToolTip": "ServiceRequestManagement.Server\\Models\\Dal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALIDAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T17:30:08.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\appsettings.json",
               "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\appsettings.json",
@@ -109,10 +127,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-19T12:37:58.246Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -128,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Program.cs",
               "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\Program.cs",
@@ -149,18 +163,6 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAkwBUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T16:44:09.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceRequestController.cs",
-              "DocumentMoniker": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Controllers\\ServiceRequestController.cs",
-              "RelativeDocumentMoniker": "ServiceRequestManagement.Server\\Controllers\\ServiceRequestController.cs",
-              "ToolTip": "D:\\Group 2a Project\\ServiceRequestManagement\\ServiceRequestManagement.Server\\Controllers\\ServiceRequestController.cs",
-              "RelativeToolTip": "ServiceRequestManagement.Server\\Controllers\\ServiceRequestController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAmwCkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T08:49:09.693Z"
             }
           ]
         }

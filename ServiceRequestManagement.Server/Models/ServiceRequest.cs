@@ -20,6 +20,8 @@ public class ServiceRequest
     public string? Representatives { get; set; }
     public string? cycleStatus { get; set; } // Added Cycle field
     public string? SelectedDomainName { get; set; }
+    public string? DomainName { get; set; }
+    public int? DomainID { get; set; }
     public int? numberOfSpecialists { get; set; }
     public int? numberOfOffers { get; set; }
     public int IsApproved { get; set; }
@@ -31,9 +33,16 @@ public class RoleSpecific
     public Guid RoleID { get; set; } = Guid.NewGuid(); // Auto-generated unique ID
     public Guid RequestID { get; set; }               // Foreign key for ServiceRequestList
     public Guid UserID { get; set; }                  // User who created the role-specific data
-    public string Role { get; set; }                 // Role name
-    public string Level { get; set; }                // Role level (e.g., Junior, Intermediate, etc.)
-    public string TechnologyLevel { get; set; }      // Technology level (e.g., Common, Advanced)
-    public string LocationType { get; set; }         // Location type (e.g., Onsite, Hybrid, Remote)
+    public string? DomainName { get; set; }
+    public int? DomainId { get; set; }
+    public string? Role { get; set; }                 // Role name
+    public string? Level { get; set; }                // Role level (e.g., Junior, Intermediate, etc.)
+    public string? TechnologyLevel { get; set; }      // Technology level (e.g., Common, Advanced)
+    public string? LocationType { get; set; }         // Location type (e.g., Onsite, Hybrid, Remote)
     public int NumberOfEmployee { get; set; }        // Number of employees
+}
+public class MasterAgreementDomain
+{
+    public int DomainID { get; set; }
+    public string? DomainName { get; set; }
 }

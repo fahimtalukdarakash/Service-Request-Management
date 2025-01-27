@@ -48,13 +48,8 @@ function Navbar() {
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to="/approved-service-requests">
-                        Approved Service Request Lists
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" to="/not-approved-service-requests">
-                        Not Approved Service Request Lists
+                      <Link className="nav-link" to="/order-list">
+                        Order List
                       </Link>
                     </li>
                     <li className="nav-item">
@@ -72,7 +67,7 @@ function Navbar() {
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to="/not-approved-service-requests">Not Approved Requests</Link>
+                      <Link className="nav-link" to="/order-list">Order List</Link>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/approved-service-requests">Approved Requests</Link>
